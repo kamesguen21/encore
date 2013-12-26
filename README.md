@@ -1,35 +1,22 @@
 
-Design Doc
+## Encore.js
+============
 
-This document represents the ideas of where this project is going.
+This is an MVC framework for node.js that I'm building. I've authored 3 modules specifically for this project:  
+* Runway - my router
+* FileFetcher - project file loader
+* Easyioc - inversion of control module
 
-Ideas:
-    -Stubs
-    -Auth; connect vs passport vs original?
-    -GUI interface? Would provide convenience features for development:
-        * Button to launch debugger
-        * Button to launch project using keep-alive tool
+Here are the features that I have working currently:  
 
-Recommended Tools:
-    -npm install supervisor
-    -npm install node-inspector
+* Inversion of control dependency loading  
+* Route Groups  
+* Route Filters  
+* Route Arguments  
+* RESTful Controllers  
+* Filters on controllers  
+* View templating (any 3rd party templating library)  
+* Non-blocking view rendering  
+* Simple recursive project loading
 
-What's been accomplished so far:
-    -Views:
-      -templating,
-      -listed by directory.file_name,
-    -Project Loader:
-      -Simple configurable recursive function.
-    -Routes:
-      -RESTful routing
-      -Route groups
-      -Route filters
-    -RESTful Controllers
-
-TO-DO:
-    -ORM
-    -Migrations
-    -Seeding
-    -REPL, support for command line and custom commands
-    -Views: simplified layout usage
-    -302 loop detection (test for this)
+More coming soon.
