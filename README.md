@@ -10,11 +10,10 @@ This is an MVC framework for node.js that I'm building. I've authored 3 modules 
 Here are the features that I have working currently:  
 
 * Inversion of control dependency loading  
-* Route Groups  
-* Route Filters  
-* Route Arguments  
-* RESTful Controllers  
-* Filters on controllers  
+* Route groups  
+* Route wildcards  
+* RESTful controllers  
+* Filters on routes or controllers  
 * View templating (any 3rd party templating library)  
 * Non-blocking view rendering  
 * Simple recursive project loading
