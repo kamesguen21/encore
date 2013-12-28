@@ -1,6 +1,5 @@
 
 ## Encore.js
-============
 [![NPM](https://nodei.co/npm/encore.png?compact=true)](https://nodei.co/npm/encore/)
 
 This is an MVC framework for node.js that I'm building. I've authored 3 modules specifically for this project,
@@ -21,7 +20,7 @@ Here are the features that I have working currently:
 * Simple recursive project loading
 
 To see an example, please visit the wiki:  
-http://github.com/rm-rf-etc/encore/wiki
+http://github.com/rm-rf-etc/encore/wiki/examples
 
 More coming soon.
 
