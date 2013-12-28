@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.21/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/robchristian/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /Users/robchristian/.npm/1f1177db-tar.lock
+15 silly lockFile 23d3568f-53329-0-9755557177122682-tmp-tgz tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz
+16 verbose lock tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz /Users/robchristian/.npm/23d3568f-53329-0-9755557177122682-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 23d3568f-53329-0-9755557177122682-tmp-tgz tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz
+20 silly lockFile 23d3568f-53329-0-9755557177122682-tmp-tgz tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz
+21 verbose tar unpack /var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz
+22 silly lockFile 8943be38-53329-0-9755557177122682-package tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package
+23 verbose lock tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package /Users/robchristian/.npm/8943be38-53329-0-9755557177122682-package.lock
+24 silly lockFile 23d3568f-53329-0-9755557177122682-tmp-tgz tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz
+25 verbose lock tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz /Users/robchristian/.npm/23d3568f-53329-0-9755557177122682-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry .npmignore
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry LICENSE
+31 silly gunzTarPerm extractEntry main.js
+32 silly gunzTarPerm extractEntry design.doc.txt
+33 silly gunzTarPerm extractEntry node_modules/e_controllers.js
+34 silly gunzTarPerm extractEntry node_modules/e_helpers_io.js
+35 silly gunzTarPerm extractEntry node_modules/e_helpers_path.js
+36 silly gunzTarPerm extractEntry node_modules/e_helpers_process.js
+37 silly gunzTarPerm extractEntry node_modules/e_helpers_typecheck.js
+38 silly gunzTarPerm extractEntry node_modules/e_views.js
+39 silly gunzTarPerm extractEntry node_modules/e_settings.json
+40 silly lockFile 8943be38-53329-0-9755557177122682-package tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package
+41 silly lockFile 8943be38-53329-0-9755557177122682-package tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package
+42 silly lockFile 23d3568f-53329-0-9755557177122682-tmp-tgz tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz
+43 silly lockFile 23d3568f-53329-0-9755557177122682-tmp-tgz tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/tmp.tgz
+44 verbose tar pack [ '/Users/robchristian/.npm/encore/0.0.1-beta/package.tgz',
+44 verbose tar pack   '/var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package' ]
+45 verbose tarball /Users/robchristian/.npm/encore/0.0.1-beta/package.tgz
+46 verbose folder /var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package
+47 silly lockFile 8943be38-53329-0-9755557177122682-package tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package
+48 verbose lock tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package /Users/robchristian/.npm/8943be38-53329-0-9755557177122682-package.lock
+49 silly lockFile e5642a08-pm-encore-0-0-1-beta-package-tgz tar:///Users/robchristian/.npm/encore/0.0.1-beta/package.tgz
+50 verbose lock tar:///Users/robchristian/.npm/encore/0.0.1-beta/package.tgz /Users/robchristian/.npm/e5642a08-pm-encore-0-0-1-beta-package-tgz.lock
+51 silly lockFile 8943be38-53329-0-9755557177122682-package tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package
+52 silly lockFile 8943be38-53329-0-9755557177122682-package tar:///var/folders/fw/jgkzzksd7snfy1zncfxp3p200000gn/T/npm-11369-MSEZQndt/1388209153329-0.9755557177122682/package
+53 silly lockFile e5642a08-pm-encore-0-0-1-beta-package-tgz tar:///Users/robchristian/.npm/encore/0.0.1-beta/package.tgz
+54 silly lockFile e5642a08-pm-encore-0-0-1-beta-package-tgz tar:///Users/robchristian/.npm/encore/0.0.1-beta/package.tgz
+55 silly lockFile 71ce99aa-an-npm-encore-0-0-1-beta-package /Users/robchristian/.npm/encore/0.0.1-beta/package
+56 verbose lock /Users/robchristian/.npm/encore/0.0.1-beta/package /Users/robchristian/.npm/71ce99aa-an-npm-encore-0-0-1-beta-package.lock
+57 silly lockFile 71ce99aa-an-npm-encore-0-0-1-beta-package /Users/robchristian/.npm/encore/0.0.1-beta/package
+58 silly lockFile 71ce99aa-an-npm-encore-0-0-1-beta-package /Users/robchristian/.npm/encore/0.0.1-beta/package
+59 verbose tar unpack /Users/robchristian/.npm/encore/0.0.1-beta/package.tgz
+60 silly lockFile 6bf6460f-an-npm-encore-0-0-1-beta-package tar:///Users/robchristian/.npm/encore/0.0.1-beta/package
+61 verbose lock tar:///Users/robchristian/.npm/encore/0.0.1-beta/package /Users/robchristian/.npm/6bf6460f-an-npm-encore-0-0-1-beta-package.lock
+62 silly lockFile e5642a08-pm-encore-0-0-1-beta-package-tgz tar:///Users/robchristian/.npm/encore/0.0.1-beta/package.tgz
+63 verbose lock tar:///Users/robchristian/.npm/encore/0.0.1-beta/package.tgz /Users/robchristian/.npm/e5642a08-pm-encore-0-0-1-beta-package-tgz.lock
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm extractEntry .npmignore
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm extractEntry LICENSE
+69 silly gunzTarPerm extractEntry main.js
+70 silly gunzTarPerm extractEntry design.doc.txt
+71 silly gunzTarPerm extractEntry node_modules/e_controllers.js
+72 silly gunzTarPerm extractEntry node_modules/e_helpers_io.js
+73 silly gunzTarPerm extractEntry node_modules/e_helpers_path.js
+74 silly gunzTarPerm extractEntry node_modules/e_helpers_process.js
+75 silly gunzTarPerm extractEntry node_modules/e_helpers_typecheck.js
+76 silly gunzTarPerm extractEntry node_modules/e_views.js
+77 silly gunzTarPerm extractEntry node_modules/e_settings.json
+78 silly lockFile 6bf6460f-an-npm-encore-0-0-1-beta-package tar:///Users/robchristian/.npm/encore/0.0.1-beta/package
+79 silly lockFile 6bf6460f-an-npm-encore-0-0-1-beta-package tar:///Users/robchristian/.npm/encore/0.0.1-beta/package
+80 silly lockFile e5642a08-pm-encore-0-0-1-beta-package-tgz tar:///Users/robchristian/.npm/encore/0.0.1-beta/package.tgz
+81 silly lockFile e5642a08-pm-encore-0-0-1-beta-package-tgz tar:///Users/robchristian/.npm/encore/0.0.1-beta/package.tgz
+82 verbose chmod /Users/robchristian/.npm/encore/0.0.1-beta/package.tgz 644
+83 verbose chown /Users/robchristian/.npm/encore/0.0.1-beta/package.tgz [ 501, 20 ]
+84 silly lockFile 3a52ce78- .
+85 silly lockFile 3a52ce78- .
+86 silly publish { name: 'encore',
+86 silly publish   version: '0.0.1-beta',
+86 silly publish   author: { name: 'Rob Christian' },
+86 silly publish   description: 'A modular MVC framework for node.js.',
+86 silly publish   main: './main.js',
+86 silly publish   repository: { type: 'git', url: 'http://github.com/rm-rf-etc/encore' },
+86 silly publish   keywords: [ 'framework', 'mvc' ],
+86 silly publish   license: 'MIT',
+86 silly publish   dependencies:
+86 silly publish    { filefetcher: '0.0.1',
+86 silly publish      easyioc: '~0.1.10',
+86 silly publish      'lodash-node': '~2.4.0',
+86 silly publish      chokidar: '~0.8.0',
+86 silly publish      runway: '~2.12.32-beta',
+86 silly publish      handlebars: '~1.2.0' },
+86 silly publish   readme: '\n## Encore.js\n============\n\nThis is an MVC framework for node.js that I\'m building. I\'ve authored 3 modules specifically for this project,\nand you can find them on npm and github:  \n* Runway - my router\n* FileFetcher - project file loader\n* Easyioc - inversion of control module\n\nHere are the features that I have working currently:  \n\n* Inversion of control dependency loading  \n* Route groups  \n* Route wildcards  \n* RESTful controllers  \n* Filters on routes or controllers  \n* View templating (any 3rd party templating library)  \n* Non-blocking view rendering  \n* Simple recursive project loading\n\nTo see an example, please visit the wiki:  \nhttp://github.com/rm-rf-etc/encore/wiki\n\nMore coming soon.\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2013 Rob Christian\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the "Software"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+86 silly publish   readmeFilename: 'README.md',
+86 silly publish   bugs: { url: 'https://github.com/rm-rf-etc/encore/issues' },
+86 silly publish   bundleDependencies:
+86 silly publish    [ 'e_fieops.js',
+86 silly publish      'e_helpers_io.js',
+86 silly publish      'e_helpers_path.js',
+86 silly publish      'e_helpers_process.js',
+86 silly publish      'e_helpers_typecheck.js',
+86 silly publish      'e_controllers.js',
+86 silly publish      'e_settings.json',
+86 silly publish      'e_views.js' ],
+86 silly publish   _id: 'encore@0.0.1-beta',
+86 silly publish   dist: { shasum: 'b89954d44c59ee5fb055ca6ef137408745a66b7d' },
+86 silly publish   _from: '.' }
+87 verbose url raw encore
+88 verbose url resolving [ 'https://registry.npmjs.org/', './encore' ]
+89 verbose url resolved https://registry.npmjs.org/encore
+90 info trying registry request attempt 1 at 21:39:13
+91 http PUT https://registry.npmjs.org/encore
+92 http 409 https://registry.npmjs.org/encore
+93 verbose url raw encore
+94 verbose url resolving [ 'https://registry.npmjs.org/', './encore' ]
+95 verbose url resolved https://registry.npmjs.org/encore
+96 info trying registry request attempt 1 at 21:39:13
+97 http GET https://registry.npmjs.org/encore
+98 http 200 https://registry.npmjs.org/encore
+99 error publish fail Cannot publish over existing version.
+99 error publish fail Update the 'version' field in package.json and try again.
+99 error publish fail
+99 error publish fail If the previous version was published in error, see:
+99 error publish fail     npm help unpublish
+99 error publish fail
+99 error publish fail To automatically increment version numbers, see:
+99 error publish fail     npm help version
+100 error System Darwin 12.5.0
+101 error command "/usr/local/Cellar/node/0.10.21/bin/node" "/usr/local/bin/npm" "publish"
+102 error cwd /Users/robchristian/www/npm-published/encorejs
+103 error node -v v0.10.21
+104 error npm -v 1.3.11
+105 error code EPUBLISHCONFLICT
+106 verbose exit [ 1, true ]
