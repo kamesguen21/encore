@@ -1,8 +1,8 @@
 {
-  "name": "encore.js",
+  "name": "encore",
   "version": "0.0.01-beta",
   "author": "Rob Christian",
-  "description": "A modular MVC framework for node.",
+  "description": "A modular MVC framework for node.js.",
   "bundledDependencies": [
     "e_fieops.js",
     "e_helpers_io.js",

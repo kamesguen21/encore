@@ -19,6 +19,9 @@ Here are the features that I have working currently:
 * Non-blocking view rendering  
 * Simple recursive project loading
 
+To see an example, please visit the wiki:  
+http://github.com/rm-rf-etc/encore/wiki
+
 More coming soon.
 
 ## License
