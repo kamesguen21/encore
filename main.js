@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-module.exports = function MVC(app){
+module.exports = MVC
+MVC.settings = require('e_settings')
+function MVC(app){
     var NODE_DOMAIN, fs, _
     // NODE_DOMAIN = require('domain').create()
     // NODE_DOMAIN.on('error', function (err) { console.log(err.message, err.stack) })
@@ -29,7 +31,6 @@ module.exports = function MVC(app){
         })
     }
 
-    var settings = this.settings = require('e_settings')
     var easyioc = require('easyioc')
     var router = require('runway')
 
@@ -48,8 +49,7 @@ module.exports = function MVC(app){
         .add( 'fetchfiles',      adapt('filefetcher')   )
         .add( 'RESTController',  adapt('e_controllers') )
         .add( 'views',           'e_views'              )
-        .add( 'templating',      settings.templates     )
-        .add( 'settings',        settings               )
+        .add( 'settings',        MVC.settings           )
         .add( 'server',          server                 )
         .add( 'main',            app                    )
         .exec()
