@@ -39,6 +39,8 @@ module.exports = function MVC(app){
             : function(){ return module }
     }
 
+    var server = require('http').createServer(router.listener)
+
     easyioc
         .add( '_',               adapt(_)               )
         .add( 'router',          adapt(router)          )
@@ -48,9 +50,7 @@ module.exports = function MVC(app){
         .add( 'views',           'e_views'              )
         .add( 'templating',      settings.templates     )
         .add( 'settings',        settings               )
+        .add( 'server',          server                 )
         .add( 'main',            app                    )
         .exec()
-
-    var server = require('http').createServer(router.listener)
-    server.listen( settings.port, null )
 }
