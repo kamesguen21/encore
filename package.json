@@ -1,6 +1,6 @@
 {
   "name": "encore",
-  "version": "0.0.17-beta",
+  "version": "0.0.18-beta",
   "author": "Rob Christian",
   "description": "A modular MVC framework for node.js.",
   "bundledDependencies": [
