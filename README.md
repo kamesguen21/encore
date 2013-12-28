@@ -4,9 +4,9 @@
 
 This is an MVC framework for node.js that I'm building. I've authored 3 modules specifically for this project,
 and you can find them on npm and github:  
-* Runway - my router
-* FileFetcher - project file loader
-* Easyioc - inversion of control module
+* Runway - the router  
+* FileFetcher - project file loader  
+* Easyioc - inversion of control module  
 
 Here are the features that I have working currently:  
 
