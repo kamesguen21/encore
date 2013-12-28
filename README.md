@@ -1,6 +1,7 @@
 
 ## Encore.js
 ============
+[![NPM](https://nodei.co/npm/encore.png?compact=true)](https://nodei.co/npm/encore/)
 
 This is an MVC framework for node.js that I'm building. I've authored 3 modules specifically for this project,
 and you can find them on npm and github:  
