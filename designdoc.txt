@@ -31,5 +31,5 @@ TO-DO:
     -Migrations
     -Seeding
     -REPL, support for command line and custom commands
-    -Views: simplified layout usage
+    -Views: simplify layout usage
     -302 loop detection (test for this)
