@@ -7,7 +7,7 @@ and you can find them on npm and github:
 * FileFetcher - project file loader  
 * Easyioc - inversion of control module  
 
-Here are the features that currently work:
+Current Features List:
 
 * Inversion of control dependency loading  
 * Cleanest routing syntax ever
