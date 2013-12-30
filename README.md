@@ -1,4 +1,3 @@
-
 ## Encore.js
 [![NPM](https://nodei.co/npm/encore.png?compact=true)](https://nodei.co/npm/encore/)
 
@@ -11,16 +10,17 @@ and you can find them on npm and github:
 Here are the features that currently work:
 
 * Inversion of control dependency loading  
+* Cleanest routing syntax ever
 * Route groups  
 * Route wildcards  
 * RESTful controllers  
 * Filters on routes or controllers  
-* View templating (any 3rd party templating library)  
-* Non-blocking view rendering  
-* Simple recursive project loading
+* View templating _(any 3rd party templating library)_  
+* Performance optimized view rendering  
+* Flexible recursive project loading
 
-To see an example, please visit the wiki:  
-http://github.com/rm-rf-etc/encore/wiki/examples
+For examples, please visit:  
+http://encore.jit.su
 
 More coming soon.
 
