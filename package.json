@@ -1,10 +1,10 @@
 {
   "name": "encore",
-  "version": "0.0.21-beta",
+  "version": "0.0.22-beta",
   "author": "Rob Christian",
   "description": "A modular MVC framework for node.js.",
   "bundledDependencies": [
-    "e_fieops.js",
+    "e_fileops.js",
     "e_helpers_io.js",
     "e_helpers_path.js",
     "e_helpers_process.js",
@@ -28,7 +28,7 @@
     "easyioc": "~0.1.10",
     "lodash-node": "~2.4.0",
     "chokidar": "~0.8.0",
-    "runway": "~2.14.40-beta",
+    "runway": "~2.14.42-beta",
     "handlebars": "~1.2.0"
   }
 }
