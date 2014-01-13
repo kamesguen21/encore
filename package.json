@@ -28,7 +28,7 @@
     "easyioc": "~0.1.10",
     "lodash-node": "~2.4.0",
     "chokidar": "~0.8.0",
-    "runway": "~2.15.42-beta",
+    "runway": "~2.15.43-beta",
     "handlebars": "~1.2.0"
   }
 }
