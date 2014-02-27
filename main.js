@@ -41,6 +41,9 @@ function MVC(app){
     }
 
     var server = require('http').createServer(router.listener)
+    server.cert = function(cert){
+        return require('https').createServer(cert, router.listener)
+    }
 
     easyioc
         .add( '_',               adapt(_)               )
