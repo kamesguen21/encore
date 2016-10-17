@@ -2,6 +2,25 @@
 
 # No longer being maintained
 
+3 other projects are used as modules in this project, and you have to use `npm link` to include them, if you want to get this project running. The projects you need to clone are rm-rf-etc/runway, rm-rf-etc/typeof, and rm-rf-etc/connected. The following steps should get things working for you.
+```
+$ cd ~/projects/typeof
+$ npm link
+$ cd ~/projects/runway
+$ npm install
+$ npm link typeof
+$ npm link
+$ cd ~/projects/connected
+$ npm install
+$ npm link typeof
+$ npm link
+$ cd ~/projects/encore
+$ npm link typeof runway connected
+$ npm link
+```
+You should now be able to use `npm link encore` in your project directory to symlink encore in your `node_modules`. My encore-docs-site provides an example working site. github.com/rm-rf-etc/encore-docs-site
+
+
 [![NPM](https://nodei.co/npm/encore.png?compact=true)](https://nodei.co/npm/encore/)
 
 This is an MVC framework for node.js that I'm building. I've authored 3 modules specifically for this project,
