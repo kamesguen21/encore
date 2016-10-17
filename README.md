@@ -2,23 +2,26 @@
 
 # No longer being maintained
 
-3 other projects are used as modules in this project, and you have to use `npm link` to include them, if you want to get this project running. The projects you need to clone are rm-rf-etc/runway, rm-rf-etc/typeof, and rm-rf-etc/connected. The following steps should get things working for you.
+3 other projects are used as modules in this project, and you have to use `npm link` to include them, if you want to get this project running. The projects you need to clone are rm-rf-etc/runway, rm-rf-etc/typeof, rm-rf-etc/easyioc, and rm-rf-etc/filefetcher. The following steps should get things working for you.
 ```
-$ cd ~/projects/typeof
-$ npm link
-$ cd ~/projects/runway
-$ npm install
-$ npm link typeof
-$ npm link
-$ cd ~/projects/connected
-$ npm install
-$ npm link typeof
-$ npm link
+$ cd ~/projects
+$ git clone git@github.com:rm-rf-etc/typeof
+$ git clone git@github.com:rm-rf-etc/runway
+$ git clone git@github.com:rm-rf-etc/easyioc
+$ git clone git@github.com:rm-rf-etc/filefetcher
+```
+Now you have to use `npm link` to use `typeof` in `runway`. If you're using `nvm` to manage node versions, make sure you stay on the same version while changing directories. Everything has been updated and tested in node version 6.8.1.
+```
+$ cd ~/projects/typeof && npm link
+$ cd ~/projects/runway && npm install && npm link && npm link typeof
+$ cd ~/projects/easyioc && npm install && npm link
+$ cd ~/projects/filefetcher && npm link
 $ cd ~/projects/encore
-$ npm link typeof runway connected
+$ npm install
+$ npm link typeof runway easyioc filefetcher
 $ npm link
 ```
-You should now be able to use `npm link encore` in your project directory to symlink encore in your `node_modules`. My encore-docs-site provides an example working site. github.com/rm-rf-etc/encore-docs-site
+You should now be able to use `npm link encore` in your project, it will symlink encore under `node_modules`. My encore-docs-site provides an example. github.com/rm-rf-etc/encore-docs-site
 
 
 [![NPM](https://nodei.co/npm/encore.png?compact=true)](https://nodei.co/npm/encore/)
@@ -43,7 +46,7 @@ Current Features List:
 * Flexible recursive project loading
 
 For examples, please visit:  
-http://encore.jit.su
+~~http://encore.jit.su~~ coming soon
 
 More coming soon.
 
