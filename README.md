@@ -1,4 +1,5 @@
 ## Encore.js
+working example: [rm-rf-etc/encore-docs-site](http://github.com/rm-rf-etc/encore-docs-site)
 
 # No longer being maintained
 
@@ -22,7 +23,7 @@ $ npm install
 $ npm link typeof runway easyioc filefetcher
 $ npm link
 ```
-You should now be able to use `npm link encore` in your project, it will symlink encore under `node_modules`. My encore-docs-site provides an example. github.com/rm-rf-etc/encore-docs-site
+You should now be able to use `npm link encore` in your project, it will symlink encore under `node_modules`.
 
 
 [![NPM](https://nodei.co/npm/encore.png?compact=true)](https://nodei.co/npm/encore/)
