@@ -9,6 +9,7 @@ $ git clone git@github.com:rm-rf-etc/typeof
 $ git clone git@github.com:rm-rf-etc/runway
 $ git clone git@github.com:rm-rf-etc/easyioc
 $ git clone git@github.com:rm-rf-etc/filefetcher
+$ git clone git@github.com:rm-rf-etc/encore
 ```
 Now you have to use `npm link` to use `typeof` in `runway`. If you're using `nvm` to manage node versions, make sure you stay on the same version while changing directories. Everything has been updated and tested in node version 6.8.1.
 ```
