@@ -2,7 +2,7 @@
 
 # No longer being maintained
 
-3 other projects are used as modules in this project, and you have to use `npm link` to include them, if you want to get this project running. The projects you need to clone are rm-rf-etc/runway, rm-rf-etc/typeof, rm-rf-etc/easyioc, and rm-rf-etc/filefetcher. The following steps should get things working for you.
+4 other projects are used as modules in this project, and you have to use `npm link` to include them, if you want to get this project running. The projects you need to clone are rm-rf-etc/runway, rm-rf-etc/typeof, rm-rf-etc/easyioc, and rm-rf-etc/filefetcher. The following steps should get things working for you.
 ```
 $ cd ~/projects
 $ git clone git@github.com:rm-rf-etc/typeof
